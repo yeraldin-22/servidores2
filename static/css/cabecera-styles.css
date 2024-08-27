@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+boby{ 
+    background-color: antiquewhite;
+    margin: 15px;
+}
+
+header{
+    background-color: blanchedalmond;
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 12px 12px 16px #333;
+
+}
+header h1{color: aquamarine;
+text-align: center;
+line-height: 70px;
+font-size: 35px;
+text-shadow: 6px 6px 16px whitesmoke;
+}
+header ul{
+    display: flex;
+    float: left;
+}
+
+header ul li{
+    margin-left: 50%;
+    list-style-type: none;
+
+}
+header ul li a{ 
+    text-decoration: none;
+    color: beige;
+    line-height: 30px;
+}
+
+

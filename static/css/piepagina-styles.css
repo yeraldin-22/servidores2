@@ -1,0 +1,18 @@
+footer
+{box-shadow: 12px 12px 20px red;
+    background-color: black;
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    border-radius: 32px;
+    margin-top: 30px;
+
+}
+footer h1{
+    color: aqua;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 8px 8px 20px #a82121;
+    
+}
