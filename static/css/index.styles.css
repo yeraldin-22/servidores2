@@ -1,6 +1,6 @@
 .caja-grande{
-    background-color: blueviolet;
-    width: 90%;
+    background-color: rgb(156, 134, 177);
+    width: 91%;
     height: 400px;
     margin-top: 30px;
     margin-left: 5%;
@@ -10,7 +10,7 @@
 .caja-pequena1 { 
 width: 30%;
 height: 100%;
-background-color: rgb(175, 175, 69);
+background-color: rgb(13, 123, 143);
 border: 5px solid #333;
 overflow-y: scroll;
 
@@ -19,7 +19,7 @@ overflow-y: scroll;
 .caja-pequena2 { 
     width: 70%;
     height: 100%;
-    background-color: rgb(185, 185, 130);
+    background-color: rgb(42, 122, 122);
     border: 5px solid #333;
     padding: 30PX;
     
