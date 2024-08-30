@@ -3,4 +3,20 @@
 {%block title %} Productos {% endblock %}
 
 {% block content %}
+
+
+<div class="contenedor-caja">
+    {% for product in productos %}
+    <div class="caja-tarjeta">
+        <h1>{{product.nombre}}</h1><br> <br>
+        <img src="{{product.imagen}}" alt="no se encontro"><br> <br>
+        <h3>{{product.descripcion}}</h3><br><br>
+        <h2>{{product.precio}}</h2>
+
+</div>
+
+{% endfor %}
+
+<a href="{{url_for('crear_productos')}}">AGREGAR PRODUCTO</a>
+
 {% endblock %}
